@@ -12,3 +12,4 @@
 //
 //= require bootstrap.min
 //= require skrollr
+//= require users
