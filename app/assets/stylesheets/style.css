@@ -341,7 +341,7 @@ a{
 /************************* */
 #newsletter{
 /*	background-color:rgba(130, 195, 180,.8);*/
-	background-color:rgb(130, 195, 180,.8);
+	/*background-color:rgb(130, 195, 180);*/
 }
 
 /*.registration-content{
@@ -383,15 +383,15 @@ a{
     background-color: #fff;
     border: 1px solid;
     font-weight: 400;
-	font-size:21px;
-	color:#c4c4c4;
-	width: 100%;
-    height: 100px;  
-	transition: all 0.3s ease;
-	-o-transition: all 0.3s ease;
-	-ms-transition: all 0.3s ease;
-	-moz-transition: all 0.3s ease;
-	-webkit-transition: all 0.3s ease;	
+  	font-size:21px;
+  	color:#c4c4c4;
+  	width: 100%;
+      height: 100px;  
+  	transition: all 0.3s ease;
+  	-o-transition: all 0.3s ease;
+  	-ms-transition: all 0.3s ease;
+  	-moz-transition: all 0.3s ease;
+  	-webkit-transition: all 0.3s ease;	
 }
 
 .registration-form .email-newsletter:focus {
@@ -602,88 +602,88 @@ a{
 /* 12. Responsive design */
 /************************* */
 @media screen and (min-width: 991px) {
-.header-text h1{
-	margin:10px;
-}
+  .header-text h1{
+  	margin:10px;
+  }
 
 }
 
 @media screen and (max-width: 991px) {
-h1 {
-    
-    font-size: 42px;
-    line-height: 70px;
-}
+  h1 {
+      
+      font-size: 42px;
+      line-height: 70px;
+  }
 
-h2 {
-    line-height: 55px;
-}
+  h2 {
+      line-height: 55px;
+  }
 
-p{
-	font-size:28px;
-}
+  p{
+  	font-size:28px;
+  }
 
-.header-text p {
-    line-height: 30px;
-    margin-bottom: 30px;
-}
+  .header-text p {
+      line-height: 30px;
+      margin-bottom: 30px;
+  }
 
-.header-text h1 {
-    margin-bottom: 00px;
-}
+  .header-text h1 {
+      margin-bottom: 00px;
+  }
 
-.header-content .header-phone-holder {
-    right: 50px;
-}
+  .header-content .header-phone-holder {
+      right: 50px;
+  }
 
-.header-text .btn {
-    margin-bottom: 10px;
-    margin-right: 8px;
-}
+  .header-text .btn {
+      margin-bottom: 10px;
+      margin-right: 8px;
+  }
 
-.testimonials {
-    padding: 80px 0;
-}
+  .testimonials {
+      padding: 80px 0;
+  }
 
-.testimonials-text {
-    padding: 0 100px;
-}
+  .testimonials-text {
+      padding: 0 100px;
+  }
 
-.registration-form {
-}
+  .registration-form {
+  }
 
-.our-testimonials {
-    margin-bottom: 30px;
-}
+  .our-testimonials {
+      margin-bottom: 30px;
+  }
 
-.our-testimonials .testimonials-author-text {
-    padding-left: 50px;
-}
+  .our-testimonials .testimonials-author-text {
+      padding-left: 50px;
+  }
 
-.our-testimonials .testimonials-author-text p {
-    font-size: 32px;
-}
+  .our-testimonials .testimonials-author-text p {
+      font-size: 32px;
+  }
 
-#footer .copyright{
-	padding-left: 0;
-}
+  #footer .copyright{
+  	padding-left: 0;
+  }
 
 
 }
 @media screen and (max-width: 500px) {
 
-p{
-	font-size:16px;
-}
+  p{
+  	font-size:16px;
+  }
 
-.second_line{
-	font-size:12px;
-}
+  .second_line{
+  	font-size:12px;
+  }
 
-h1{
-	font-size:18px;
+  h1{
+  	font-size:18px;
 
-}
+  }
 
 }
 @media screen and (min-device-width: 501px) and (max-device-width: 766px) { 
@@ -693,93 +693,91 @@ h1{
 
 @media screen and (max-width: 767px) {
 
+  p{
+  	text-align:center;
+  }
+
+  h1{
+  	text-align:center;
+  	font-size:22px;
+
+  }
 
 
-p{
-	text-align:center;
-}
-
-h1{
-	text-align:center;
-	font-size:22px;
-
-}
-
-
-h2{
-	font-size:40px;
-	line-height: 50px;
-}
-
-
-
-#header .header-content{
-	display:table;
-	width:100%;
-	height:300px;
-}
-
-.subscribe_text{
-	font-size:10px;
-}
-
-.box{
-	width:100%;
-}
-
-.btn-cta {
-    min-width: inherit;
-}
-
-.logo img{
-	width:100px;
-	max-width:350px;
-}
+  h2{
+  	font-size:40px;
+  	line-height: 50px;
+  }
 
 
 
-.header-content .header-phone-holder{
-	position:inherit;
-	right:inherit;
-	bottom:inherit;
-	margin-top:50px;
-}
+  #header .header-content{
+  	display:table;
+  	width:100%;
+  	height:300px;
+  }
 
-.header-content .header-phone-holder img{
-	width:100%;
-	max-width:338px;
-}
+  .subscribe_text{
+  	font-size:10px;
+  }
 
-.header-text .btn {
-	width:100%;
-}
+  .box{
+  	width:100%;
+  }
 
-.newsletter_text{
-	font-size:20px;
-}
+  .btn-cta {
+      min-width: inherit;
+  }
 
-span.toggle-menu{
-	color:#fff;
-}
-
+  .logo img{
+  	width:100px;
+  	max-width:350px;
+  }
 
 
-.registration-content {
-    padding: 0;
-}
 
-.registration-form .email-newsletter {
-    font-size: 16px;
-}
+  .header-content .header-phone-holder{
+  	position:inherit;
+  	right:inherit;
+  	bottom:inherit;
+  	margin-top:50px;
+  }
 
-.registration-form .newsletter-submit {
-    font-size: 14px;
-    width: 70px;
-}
+  .header-content .header-phone-holder img{
+  	width:100%;
+  	max-width:338px;
+  }
 
-.image-item img{
-	width:100%;
-}
+  .header-text .btn {
+  	width:100%;
+  }
+
+  .newsletter_text{
+  	font-size:20px;
+  }
+
+  span.toggle-menu{
+  	color:#fff;
+  }
+
+
+
+  .registration-content {
+      padding: 0;
+  }
+
+  .registration-form .email-newsletter {
+      font-size: 16px;
+  }
+
+  .registration-form .newsletter-submit {
+      font-size: 14px;
+      width: 70px;
+  }
+
+  .image-item img{
+  	width:100%;
+  }
 
 }
 
@@ -802,5 +800,3 @@ span.toggle-menu{
 }
 
 
-
-}

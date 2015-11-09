@@ -10,8 +10,8 @@
 // WARNING: THE FIRST BLANK LINE MARKS THE END OF WHAT'S TO BE PROCESSED, ANY BLANK LINE SHOULD
 // GO AFTER THE REQUIRES BELOW.
 //
-//= require bootstrap.min
 //= require jquery-2.1.3.min
+//= require bootstrap.min
 //= require skrollr
 //= require users
 //= require wow.min

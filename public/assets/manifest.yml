@@ -11,44 +11,94 @@ email/twitter.jpg: email/twitter-d469adc5ec1cfdb85cc3714c3db041f4.jpg
 email/twitter/index.jpg: email/twitter-d469adc5ec1cfdb85cc3714c3db041f4.jpg
 favicon.ico: favicon-1d8eca370481ab7b6a9a69b5f201f2d4.ico
 favicon/index.ico: favicon-1d8eca370481ab7b6a9a69b5f201f2d4.ico
-home/background.jpg: home/background-4174f3a9b499753b3c81a72788821f63.jpg
-home/background/index.jpg: home/background-4174f3a9b499753b3c81a72788821f63.jpg
+home/app_icon copy.png: home/app_icon copy-fda672dcad022991387179e144b4f9ef.png
+home/app_icon copy/index.png: home/app_icon copy-fda672dcad022991387179e144b4f9ef.png
+home/background-2.png: home/background-2-1d8363781fb6eda72cae564cc401272e.png
+home/background-2/index.png: home/background-2-1d8363781fb6eda72cae564cc401272e.png
 home/bar.png: home/bar-961534547fe3a97de4a9ce208b75efd1.png
 home/bar/index.png: home/bar-961534547fe3a97de4a9ce208b75efd1.png
 home/blue.jpg: home/blue-b58ca52c7f7c9c6c75eae4536fb8109a.jpg
 home/blue/index.jpg: home/blue-b58ca52c7f7c9c6c75eae4536fb8109a.jpg
+home/dog-pineapple.png: home/dog-pineapple-98d56d63c6006ffebefb43abfb435674.png
+home/dog-pineapple/index.png: home/dog-pineapple-98d56d63c6006ffebefb43abfb435674.png
 home/dog.png: home/dog-b5d0d3f1b444febf8b3f15adc81d4c45.png
 home/dog/index.png: home/dog-b5d0d3f1b444febf8b3f15adc81d4c45.png
 home/enter_email.jpg: home/enter_email-1cb2887f94a717321bb8192bcdd7b1a6.jpg
 home/enter_email/index.jpg: home/enter_email-1cb2887f94a717321bb8192bcdd7b1a6.jpg
-home/field-icon.png: home/field-icon-dcd252c247727314af64c504092a2828.png
-home/field-icon/index.png: home/field-icon-dcd252c247727314af64c504092a2828.png
-home/hands.png: home/hands-d2d77279d10afd91e415c74b9e9e6983.png
-home/hands/index.png: home/hands-d2d77279d10afd91e415c74b9e9e6983.png
-home/hands_1.jpg: home/hands_1-84e70f686648e020c3c9f829e4828daa.jpg
-home/hands_1/index.jpg: home/hands_1-84e70f686648e020c3c9f829e4828daa.jpg
-home/header_phone.png: home/header_phone-973c770abe5bba0e16b1df473a696a29.png
-home/header_phone/index.png: home/header_phone-973c770abe5bba0e16b1df473a696a29.png
-home/home.jpg: home/home-24012d82e9fb11ad1cd7ad332bfcf6bc.jpg
-home/home/index.jpg: home/home-24012d82e9fb11ad1cd7ad332bfcf6bc.jpg
-home/home_man.png: home/home_man-4b43a61b0772ba6deb72fb0b7632421a.png
-home/home_man/index.png: home/home_man-4b43a61b0772ba6deb72fb0b7632421a.png
-home/logo-background.png: home/logo-background-e4c5b6582f92750a6fde376ef43871b6.png
-home/logo-background/index.png: home/logo-background-e4c5b6582f92750a6fde376ef43871b6.png
-home/logo-squared-blue.png: home/logo-squared-blue-9e286d8e6dce98ad0596152c114a976b.png
-home/logo-squared-blue/index.png: home/logo-squared-blue-9e286d8e6dce98ad0596152c114a976b.png
+home/facebook.png: home/facebook-275855d9274188821298ca53771df7ab.png
+home/facebook/index.png: home/facebook-275855d9274188821298ca53771df7ab.png
+home/footer_logo.png: home/footer_logo-8f019a05f1fdb414a7c225ca22574023.png
+home/footer_logo/index.png: home/footer_logo-8f019a05f1fdb414a7c225ca22574023.png
+home/gallery copy/image-1.jpg: home/gallery copy/image-1-4956e1930a4f3bd5b9cbefcdf365c4fc.jpg
+home/gallery copy/image-1/index.jpg: home/gallery copy/image-1-4956e1930a4f3bd5b9cbefcdf365c4fc.jpg
+home/gallery copy/image-2.jpg: home/gallery copy/image-2-e44a549cef71a4288d9a6aa72c6c5a1d.jpg
+home/gallery copy/image-2/index.jpg: home/gallery copy/image-2-e44a549cef71a4288d9a6aa72c6c5a1d.jpg
+home/gallery copy/image-3.jpg: home/gallery copy/image-3-dd764b84aaba8ff56bfb1ae02cd0e79e.jpg
+home/gallery copy/image-3/index.jpg: home/gallery copy/image-3-dd764b84aaba8ff56bfb1ae02cd0e79e.jpg
+home/gallery copy/image-4.jpg: home/gallery copy/image-4-25dadeeb4e08220f402d45319fddce2b.jpg
+home/gallery copy/image-4/index.jpg: home/gallery copy/image-4-25dadeeb4e08220f402d45319fddce2b.jpg
+home/gallery copy/image-5.jpg: home/gallery copy/image-5-bd76e43cf19fdfb20fb873c5106e8648.jpg
+home/gallery copy/image-5/index.jpg: home/gallery copy/image-5-bd76e43cf19fdfb20fb873c5106e8648.jpg
+home/gallery copy/image-6.jpg: home/gallery copy/image-6-1028edd5b6aedb47eb2a8d318d024f0b.jpg
+home/gallery copy/image-6/index.jpg: home/gallery copy/image-6-1028edd5b6aedb47eb2a8d318d024f0b.jpg
+home/grotto logo.png: home/grotto logo-9ff01bbe6291b56c9c7ef09964764475.png
+home/grotto logo/index.png: home/grotto logo-9ff01bbe6291b56c9c7ef09964764475.png
+home/how_screen.png: home/how_screen-9564df15bccc7b626fd485e9e2168315.png
+home/how_screen/index.png: home/how_screen-9564df15bccc7b626fd485e9e2168315.png
 home/logo.png: home/logo-e1256c6c934d93e09820eebd07cf82fb.png
 home/logo/index.png: home/logo-e1256c6c934d93e09820eebd07cf82fb.png
-home/main_bg.jpg: home/main_bg-b59d352298dfde344b968d869976aeee.jpg
-home/main_bg/index.jpg: home/main_bg-b59d352298dfde344b968d869976aeee.jpg
-home/pit_1.png: home/pit_1-501e3e503ce9657a3b1a1ed87e43b62b.png
-home/pit_1/index.png: home/pit_1-501e3e503ce9657a3b1a1ed87e43b62b.png
-home/pit_stuggle_fast.png: home/pit_stuggle_fast-b3fe1a033b66c83a1bb0aa7b789bc819.png
-home/pit_stuggle_fast/index.png: home/pit_stuggle_fast-b3fe1a033b66c83a1bb0aa7b789bc819.png
-home/pit_truggle.png: home/pit_truggle-2bab593ac4edca3745b222cb97413dce.png
-home/pit_truggle/index.png: home/pit_truggle-2bab593ac4edca3745b222cb97413dce.png
-home/start_button.png: home/start_button-ac7320762c915b5b342e7327e8f60eda.png
-home/start_button/index.png: home/start_button-ac7320762c915b5b342e7327e8f60eda.png
+home/logo_final.png: home/logo_final-c52b18a8c85a0bc88268f7e80787420b.png
+home/logo_final/index.png: home/logo_final-c52b18a8c85a0bc88268f7e80787420b.png
+home/mail.png: home/mail-c3206317b8e2aae2075c8da3cf0c69b0.png
+home/mail/index.png: home/mail-c3206317b8e2aae2075c8da3cf0c69b0.png
+home/main-logo2.png: home/main-logo2-41f466c2c13d05be46cbb04029165496.png
+home/main-logo2/index.png: home/main-logo2-41f466c2c13d05be46cbb04029165496.png
+home/main_background.png: home/main_background-8c2eeaf57f4625a6dd05898af9c4b470.png
+home/main_background/index.png: home/main_background-8c2eeaf57f4625a6dd05898af9c4b470.png
+home/main_icon.png: home/main_icon-bfc9181aaf55ba6fffd65c94f87c12d3.png
+home/main_icon/index.png: home/main_icon-bfc9181aaf55ba6fffd65c94f87c12d3.png
+home/main_second_background.png: home/main_second_background-a2068b008a176dc410fa7dfab017474c.png
+home/main_second_background/index.png: home/main_second_background-a2068b008a176dc410fa7dfab017474c.png
+home/mobile assets-21 copy.png: home/mobile assets-21 copy-3cc9e857ecb7b3cf1a3e8231042f1256.png
+home/mobile assets-21 copy/index.png: home/mobile assets-21 copy-3cc9e857ecb7b3cf1a3e8231042f1256.png
+home/mobile assets-22 copy.png: home/mobile assets-22 copy-1821822836c513c77e1b31fc11f52330.png
+home/mobile assets-22 copy/index.png: home/mobile assets-22 copy-1821822836c513c77e1b31fc11f52330.png
+home/mobile assets-23 copy.png: home/mobile assets-23 copy-10a31ce3a55241ad44ff19e18b5b7210.png
+home/mobile assets-23 copy/index.png: home/mobile assets-23 copy-10a31ce3a55241ad44ff19e18b5b7210.png
+home/mobile assets_HP-mobile 3.png: home/mobile assets_HP-mobile 3-2846d7b2a4bc14640ce90cb6507b73d1.png
+home/mobile assets_HP-mobile 3/index.png: home/mobile assets_HP-mobile 3-2846d7b2a4bc14640ce90cb6507b73d1.png
+home/perks-10 copy.png: home/perks-10 copy-e53a17c35fe2b765932f491d8734de34.png
+home/perks-10 copy/index.png: home/perks-10 copy-e53a17c35fe2b765932f491d8734de34.png
+home/phone-holder.png: home/phone-holder-ebd076d924341acfcb69ae85a979e923.png
+home/phone-holder/index.png: home/phone-holder-ebd076d924341acfcb69ae85a979e923.png
+home/phone.jpg: home/phone-6431dcf2c3d966263c5a26e3352c6011.jpg
+home/phone/index.jpg: home/phone-6431dcf2c3d966263c5a26e3352c6011.jpg
+home/phone1.png: home/phone1-9f95efd66ad0877769ca93e35e3f24fe.png
+home/phone1/index.png: home/phone1-9f95efd66ad0877769ca93e35e3f24fe.png
+home/phone2.png: home/phone2-a9f4aeec4b6ecca70001c9c96b6d4e82.png
+home/phone2/index.png: home/phone2-a9f4aeec4b6ecca70001c9c96b6d4e82.png
+home/pineapple.png: home/pineapple-37a34af5ee0024971d87717fdbc35450.png
+home/pineapple/index.png: home/pineapple-37a34af5ee0024971d87717fdbc35450.png
+home/screen-1 copy 2.jpg: home/screen-1 copy 2-90bffce0e6664dc3e9ec63e921bbf969.jpg
+home/screen-1 copy 2/index.jpg: home/screen-1 copy 2-90bffce0e6664dc3e9ec63e921bbf969.jpg
+home/screen-1 copy 3.jpg: home/screen-1 copy 3-90bffce0e6664dc3e9ec63e921bbf969.jpg
+home/screen-1 copy 3/index.jpg: home/screen-1 copy 3-90bffce0e6664dc3e9ec63e921bbf969.jpg
+home/small-logo.png: home/small-logo-feb6795677f4cd394d4840263dcfa116.png
+home/small-logo/index.png: home/small-logo-feb6795677f4cd394d4840263dcfa116.png
+home/social mecia ig copy.png: home/social mecia ig copy-c156079393f300a229e5d823e511fe9a.png
+home/social mecia ig copy/index.png: home/social mecia ig copy-c156079393f300a229e5d823e511fe9a.png
+home/testimonials copy.jpg: home/testimonials copy-762bb18ba767aa086e07935f1a30b08e.jpg
+home/testimonials copy/index.jpg: home/testimonials copy-762bb18ba767aa086e07935f1a30b08e.jpg
+home/testimonials-author copy.png: home/testimonials-author copy-ee2d8382837325f72527a29c7f72f67a.png
+home/testimonials-author copy/index.png: home/testimonials-author copy-ee2d8382837325f72527a29c7f72f67a.png
+home/testimonials-bcg copy.jpg: home/testimonials-bcg copy-d5d83711c6f9a24c8cac15e7c18d9588.jpg
+home/testimonials-bcg copy/index.jpg: home/testimonials-bcg copy-d5d83711c6f9a24c8cac15e7c18d9588.jpg
+home/twitter copy.png: home/twitter copy-454bc256128b040fc8a5fc6b955d3ad6.png
+home/twitter copy/index.png: home/twitter copy-454bc256128b040fc8a5fc6b955d3ad6.png
+home/venue_header.png: home/venue_header-d6463397d56152932982575d7d3e86ba.png
+home/venue_header/index.png: home/venue_header-d6463397d56152932982575d7d3e86ba.png
+refer/bar.png: refer/bar-961534547fe3a97de4a9ce208b75efd1.png
+refer/bar/index.png: refer/bar-961534547fe3a97de4a9ce208b75efd1.png
 refer/blade-explain.png: refer/blade-explain-5d5d1eff8ab18125ccbc6e6dd4c2ff7c.png
 refer/blade-explain/index.png: refer/blade-explain-5d5d1eff8ab18125ccbc6e6dd4c2ff7c.png
 refer/blade-explain@2x.png: refer/blade-explain@2x-1d1889a0d73eb0384339b800291b99c0.png
@@ -61,6 +111,8 @@ refer/cream-tooltip@2x.jpg: refer/cream-tooltip@2x-afcaba9c26d75316bc9a97461c803
 refer/cream-tooltip@2x/index.jpg: refer/cream-tooltip@2x-afcaba9c26d75316bc9a97461c803161.jpg
 refer/cream-tooltip@2x.png: refer/cream-tooltip@2x-eb83ae0058e0af0b00160fa6a75382f3.png
 refer/cream-tooltip@2x/index.png: refer/cream-tooltip@2x-eb83ae0058e0af0b00160fa6a75382f3.png
+refer/dove.png: refer/dove-01bd9c982c85819d0acf47c55a03b6e3.png
+refer/dove/index.png: refer/dove-01bd9c982c85819d0acf47c55a03b6e3.png
 refer/fb.png: refer/fb-31a15e1ecaae6ef5b3352e78aed6cdad.png
 refer/fb/index.png: refer/fb-31a15e1ecaae6ef5b3352e78aed6cdad.png
 refer/fb@2x.png: refer/fb@2x-0c4c5200a96812cade51bbc005ed00f9.png
@@ -81,6 +133,8 @@ refer/progress-done.png: refer/progress-done-5ea861cda5c14021ac7e7648350bae10.pn
 refer/progress-done/index.png: refer/progress-done-5ea861cda5c14021ac7e7648350bae10.png
 refer/progress-done@2x.png: refer/progress-done@2x-4fc9a6ea1eb01e93982d366fae8f8213.png
 refer/progress-done@2x/index.png: refer/progress-done@2x-4fc9a6ea1eb01e93982d366fae8f8213.png
+refer/progress.png: refer/progress-599b78b30cc9e667815a788a98a39079.png
+refer/progress/index.png: refer/progress-599b78b30cc9e667815a788a98a39079.png
 refer/truman.png: refer/truman-ec5046e713827604499c536b5604bd1a.png
 refer/truman/index.png: refer/truman-ec5046e713827604499c536b5604bd1a.png
 refer/truman@2x.png: refer/truman@2x-186719f96aab8f228a35f7b6d47e334d.png
@@ -95,16 +149,34 @@ refer/winston@2x.png: refer/winston@2x-e3d08d6f6b936c3c692731632471f78a.png
 refer/winston@2x/index.png: refer/winston@2x-e3d08d6f6b936c3c692731632471f78a.png
 active_admin.js: active_admin-76495de5f9a0a6af340457a8d11e1130.js
 active_admin/index.js: active_admin-76495de5f9a0a6af340457a8d11e1130.js
-application.js: application-df0f9eb8cc6e4acffb5ad71d8b11f4cb.js
-application/index.js: application-df0f9eb8cc6e4acffb5ad71d8b11f4cb.js
+application.js: application-bf3e97ffbaa888d6577baaf64eadeed5.js
+application/index.js: application-bf3e97ffbaa888d6577baaf64eadeed5.js
+owl.carousel.min_.js1: owl.carousel.min_-39062bfd600ba14267992fc7049afddd.js1
+owl/index.carousel.min_.js1: owl.carousel.min_-39062bfd600ba14267992fc7049afddd.js1
 active_admin.css: active_admin-f58fc98e42733be6473403cf53156e11.css
 active_admin/index.css: active_admin-f58fc98e42733be6473403cf53156e11.css
-application.css: application-06a2c8759bf7b78ed1bb1328a571dce0.css
-application/index.css: application-06a2c8759bf7b78ed1bb1328a571dce0.css
-core.css: core-2a7f36266af11943b4831710536f067f.css
-core/index.css: core-2a7f36266af11943b4831710536f067f.css
+application.css: application-c16c71def05a708ba3e1ffd9156b4049.css
+application/index.css: application-c16c71def05a708ba3e1ffd9156b4049.css
+core.css: core-a26c9e8fc395c864856e6a98c53bddc1.css
+core/index.css: core-a26c9e8fc395c864856e6a98c53bddc1.css
 reset.css: reset-6ad98bc091cc9c97d9111ba5d3b1bc6e.css
 reset/index.css: reset-6ad98bc091cc9c97d9111ba5d3b1bc6e.css
+AjaxLoader.gif: AjaxLoader-ac58fa9a221e4578bdf56d1bf47ff8ee.gif
+AjaxLoader/index.gif: AjaxLoader-ac58fa9a221e4578bdf56d1bf47ff8ee.gif
+grabbing.png: grabbing-c2657478e4850c16f6a6fc9fb486bf6d.png
+grabbing/index.png: grabbing-c2657478e4850c16f6a6fc9fb486bf6d.png
+FontAwesome.otf: FontAwesome-fd2fbb7ea059bab3e0569cca6fa8bcc7.otf
+FontAwesome/index.otf: FontAwesome-fd2fbb7ea059bab3e0569cca6fa8bcc7.otf
+fontawesome-webfont.eot: fontawesome-webfont-6ea093931dd1e614a0ca212df5586590.eot
+fontawesome-webfont/index.eot: fontawesome-webfont-6ea093931dd1e614a0ca212df5586590.eot
+fontawesome-webfont.svg: fontawesome-webfont-ee4f0ac74d17cdffd0fca0513c17f92d.svg
+fontawesome-webfont/index.svg: fontawesome-webfont-ee4f0ac74d17cdffd0fca0513c17f92d.svg
+fontawesome-webfont.ttf: fontawesome-webfont-f28488b2039e37b431c9fad900a8a8eb.ttf
+fontawesome-webfont/index.ttf: fontawesome-webfont-f28488b2039e37b431c9fad900a8a8eb.ttf
+fontawesome-webfont.woff: fontawesome-webfont-951d190f1a17a4729352b2a63b7d6e39.woff
+fontawesome-webfont/index.woff: fontawesome-webfont-951d190f1a17a4729352b2a63b7d6e39.woff
+fontawesome-webfont.woff2: fontawesome-webfont-233c39947021f5bac8cbd3b3340f5019.woff2
+fontawesome-webfont/index.woff2: fontawesome-webfont-233c39947021f5bac8cbd3b3340f5019.woff2
 active_admin/admin_notes_icon.png: active_admin/admin_notes_icon-25b05cd8197f7a271d0624853a6dbdd5.png
 active_admin/admin_notes_icon/index.png: active_admin/admin_notes_icon-25b05cd8197f7a271d0624853a6dbdd5.png
 active_admin/datepicker/datepicker-header-bg.png: active_admin/datepicker/datepicker-header-bg-6f0baad739953cb1a0413c031841e82f.png
