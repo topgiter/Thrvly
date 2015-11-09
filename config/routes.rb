@@ -26,6 +26,6 @@ Prelaunchr::Application.routes.draw do
       match '*not_found', to: 'users#redirect', :format => false
   end
   
-  match 'venues/faq' => 'venues#faq'
-  match 'venues/index' => 'venues#index'
+  match 'venues/faq', :to => 'venues#faq'
+  match 'venues/index', :to => 'venues#index'
 end
