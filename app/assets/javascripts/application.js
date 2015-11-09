@@ -13,3 +13,4 @@
 //= require bootstrap.min
 //= require skrollr
 //= require users
+//= require wow.min
