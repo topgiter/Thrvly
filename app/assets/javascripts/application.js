@@ -12,9 +12,3 @@
 //
 //= require bootstrap.min
 //= require skrollr
-//= require users
-//= require wow.min
-//= require custom
-//= require active_admin
-//= jquery.mb.YTPlayer.min
-//= require owl.carousel
