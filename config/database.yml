@@ -26,10 +26,10 @@ test:
 production:
   adapter:  postgresql  
   encoding: unicode
-  host: localhost
-  adapter:  postgresql
   host:     localhost
   encoding: unicode
   database: grotto_thrvly_prod
   pool:     5
+  username: root
+  password: root
   template: template0
