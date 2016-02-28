@@ -10,18 +10,24 @@
  *
  *= require bootstrap.min
  *= require active_admin
- *= require jquery.mb.YTPlayer.min
- *= require owl.carousel
- *= require owl.theme
- *= require owl.transitions
  *= require bootstrap_framework
- *= require font-awesome
- *= require fonts
  *= require core
- *= require users
- *= require animate
- *= require owl.carousel
- *= require owl.theme
- *= require style
+ *= require font-awesome
+ *= require commonc
+  *= require users
+ *= require student
+ *= require instructor
+ *= require responsive
  *= require_self
 */
+
+/*
+	users_
+ owl.carousel
+  owl.theme
+  owl.transitions
+  fonts
+  animate
+  style
+  resetr
+  */

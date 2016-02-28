@@ -38,3 +38,13 @@
     font-style: normal;
 
 }
+
+
+
+@font-face {
+
+font-family: MyriadPro-Regular;
+
+src: url(fonts/MyriadPro-Regular.ttf ) format("truetype");
+
+} 

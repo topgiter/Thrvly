@@ -7,20 +7,20 @@ development:
   adapter:  postgresql
   host:     localhost
   encoding: unicode
-  database: prelaunchr_development
+  database: grotto_thrvly_dev
   pool:     5
-  username: postgres
-  password: postgres
+  username: root
+  password: root
   template: template0
 
 test:
   adapter:  postgresql
   host:     localhost
   encoding: unicode
-  database: prelaunchr_test
+  database: grotto_thrvly_test
   pool:     5
-  username: postgres
-  password: postgres
+  username: root
+  password: root
   template: template0
 
 production:
@@ -30,8 +30,6 @@ production:
   adapter:  postgresql
   host:     localhost
   encoding: unicode
-  database: prelaunchr_production
+  database: grotto_thrvly_prod
   pool:     5
-  username: postgres
-  password: postgres
   template: template0

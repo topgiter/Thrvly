@@ -1,59 +1,182 @@
-<header id="header">
-  <div class="container">     
-    <div class="header-content">   
-      <div class="header-text">
-        <div class="logo">
-          <h6 class="venue_page">          
-            <%= link_to 'Are you a bar owner?', venues_index_path %>
-          </h6>
-          <%= image_tag 'home/main-logo2.png', :class => 'main_logo' %>
-        </div> 
-        <div class="box">
-          <h1>$10 for an hour-long open bar</h1>  
-        </div> 
-        <p> Wherever you want, whenever you want <br> <span class="second_line">Tons of locations across Manhattan and Brooklyn </span></p>             
+<section id="splash">
+  <div class="banner">
+    <div class="splash-logo">
+       <%= image_tag("splash/logo_0.png", alt: "Thrvly") %>
+    </div>
+
+    <div class="row title">
+      <div class="col-sm-10 col-md-10 text-center">
+        <h1>THRVLY Launching 2016</h1>
+        <h3 class="bold world">THE WORLD'S LARGEST</h3>
+        <h3 class="bold">HEALTH CONTENT PLATFORM</h3>
+      </div>
+    </div>
+    <div class="row content">
+      <div class="col-xs-6 text-center">
+          <h4>BUILD YOUR BRAND</h4>
+          <h4>EARN REAL REVENUE</h4>
+      </div>
+
+      <div class="col-xs-6 text-center">
+          <h4>DISCOVER INSPIRATION FROM</h4>
+          <h4>THOUSANDS OF INSTRUCTORS</h4>
+      </div>
+
+      <div class="col-xs-12 text-center earn">
+        <%= image_tag("splash/reward.png", alt: "Reward") %>
+        <h3>EARN REWARDS JUST FOR REGISTERING PRE-LAUNCH</h3>
       </div>
     </div>
   </div>
-  <section class="registration content-padding" id="newsletter">
-    <div class="container registration-content wow fadeInDown">
-      <%= image_tag 'home/main_icon.png', :class => 'mail_icon' %>
-      <h3 class="newsletter_text ">Be the first to know</h3>
-      <div class="registration-form">
+  <div class="splash-input">
+    <div class="row text-center choose">
+      <%= image_tag("splash/choose_reward.png", alt: "Choose Reward") %>
+      <h4>CHOOSE TO BEGIN AS AN INSTRUCTOR OR STUDENT</h4>
+    </div>
+    <div class="row text-center input-form">
         <%= form_for @user, :url => { :action => "create" } do |f| %>
-          <%= f.text_field :email, :placeholder => "Enter Email", :class => 'email_form', :id => 'fieldEmail' %>
-          <%= f.submit 'Step Inside!', :class => "btn newsletter-submit", :id => "newsletter_button" %>
-        <% end %>
-      </div>                
-    </div>  
-  </section>    
-</header>
-<footer id="footer">
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-12 text-center">
-        <%= image_tag 'home/footer_logo.png', :class => 'footer_logo' %>
-      </div>  
-    </div> 
-    <a href="https://www.facebook.com/Grotto-882215308529091/?fref=ts">
-      <%= image_tag 'home/facebook.png', :class => 'facebook' %>
-    </a>
-    <a href="mailto:team@grottoapp.com">
-      <%= image_tag 'home/main_icon.png', :class => 'mail_us' %>
-    </a>
-    <div class="row">
-      <div class="col-sm-3">
-        <a href="faq.html">Faq</a>
+          <%= f.text_field :email, :placeholder => "Enter Email", :class => "email-input" %>
+          <!-- <input class="submit-btn" name="commit_instructor" type="submit" value="REGISTER AS INSTRUCTOR" />
+          <input class="submit-btn" name="commit_student" type="submit" value="BEGIN AS STUDENT" /> -->
+          
+          <a href='/instructor'><input class="submit-btn" name="commit_instructor" type="button" value="REGISTER AS INSTRUCTOR" /></a>
+          <a href='/student'><input class="submit-btn" name="commit_student" type="button" value="BEGIN AS STUDENT" /></a>
+        <% end %> 
       </div>
-      <div class="col-sm-3">
-        <a href="partner.html">Partner with Grotto</a>
+  </div>
+  <div class="splash-footer">
+    <div class="row text-center join">
+      <h2 class='bold'>JOIN US</h2>
+    </div>
+    <div class="row text-center social">
+      <div class="social-icon">
+        <%= image_tag("splash/thrvly_min.png", alt: "Choose Reward") %>
       </div>
-      <div class="col-sm-3">
-        <a href="terms.html">Terms</a>
+      <div class="social-icon">
+        <i class="fa fa-instagram fa-3x"></i>
       </div>
-      <div class="col-sm-3">
-        <a href="#">Privacy Policy</a>
+      <div class="social-icon">
+        <i class="fa fa-facebook fa-3x"></i>
       </div>
-    </div> 
-  </div>     
-</footer>
+      <div class="social-icon">
+        <i class="fa fa-pinterest-p fa-3x"></i>
+      </div>
+      <div class="social-icon">
+        <i class="fa fa-twitter fa-3x"></i>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- <div class="splash-logo">
+      <%= image_tag("splash/logo_0.png", alt: "Thrvly", class: "splash-logo") %>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-8">
+          <div class="text-center">
+            <h1 class="title">THRVLY Launching 2016</h1>
+            <div class="platform">
+              <h3 class="bold">THE WORLD'S LARGEST</h3>
+              <h3 class="bold">HEALTH CONTENT PLATFORM</h3>
+            </div>
+          </div>
+        </div>
+      </div> -->
+      <!-- <div class="row">
+        <div class="col-xs-6">
+          <h4>BUILD YOUR BRAND</h4>
+          <h4>EARN REAL REVENUE</h4>
+        </div>
+        <div class="col-xs-6">
+          <h4>DISCOVER INSPIRATION FROM</h4>
+          <h4>THOUSANDS OF INSTRUCTORS</h4>
+        </div>
+      </div> -->
+  
+    <!-- <div class="container">
+      <div class="row">
+        <div class="col-sm-6 col-md-9 col-lg-9">
+          <div class="title text-center">
+            <h1>THRVLY Launching 2016</h1>
+            <div class="platform">
+              <h3>THE WORLD'S LARGEST</h3>
+              <h3>HEALTH CONTENT PLATFORM</h3>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-3 col-lg-3">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="functionals text-center right-border">
+            <h4>BUILD YOUR BRAND</h4>
+            <h4>EARN REAL REVENUE</h4>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="functionals text-center">
+            <h4>DISCOVER INSPIRATION FROM</h4>
+            <h4>THOUSANDS OF INSTRUCTORS</h4>
+          </div>
+        </div>
+      </div>
+      <div class="reward">
+        <div class="row text-center">
+          <%= image_tag("splash/reward.png", alt: "Reward", class: "eward-img") %>
+          <h3 class="reward-title">EARN REWARDS JUST FOR REGISTERING PRE-LAUNCH</h3>
+        </div>
+      </div>
+    </div> -->
+  
+<!--   <section id="splash-input">
+    <div class="choose-reward">
+      <div class="row text-center">
+        <%= image_tag 'splash/choose_reward.png', alt: 'reward', class: '' %>
+        <h4 class="choose-reward-title">CHOOSE TO BEGIN AS AN INSTRUCTOR OR STUDENT</h4>        
+      </div>
+    </div>
+    <div class="input-form">
+      <div class="row text-center">
+        <%= form_for @user, :url => { :action => "create" } do |f| %>
+          <%= f.text_field :email, :placeholder => "Enter Email", :class => "email-input" %>
+          <input class="submit-btn" name="commit_instructor" type="submit" value="REGISTER AS INSTRUCTOR" />
+          <input class="submit-btn" name="commit_student" type="submit" value="BEGIN AS STUDENT" />
+        <% end %> 
+      </div>
+    </div>
+  </section>
+  <section id="splash-footer">
+  </section> -->

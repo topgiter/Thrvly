@@ -17,6 +17,9 @@ Prelaunchr::Application.routes.draw do
   match 'policy' => 'users#policy'
   match 'presskit' => 'users#presskit'
   match 'terms' => 'users#terms'
+
+  match 'student' => 'public#student'
+  match 'instructor' => 'public#instructor'
   
   match 'auth/:provider/callback', to: 'sessions#create'
   match 'auth/failure', to: redirect('/')
