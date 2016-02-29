@@ -27,7 +27,6 @@ production:
   adapter:  postgresql  
   encoding: unicode
   host:     localhost
-  encoding: unicode
   database: grotto_thrvly_prod
   pool:     5
   username: root
