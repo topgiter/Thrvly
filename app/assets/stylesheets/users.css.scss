@@ -35,13 +35,18 @@ $blue: #54657e;
         }
 
       }
+
+      .for-student {
+        padding-top: 0.5em;
+      }
   }
 
   .earn {
       /*padding-top: 50px;*/
 
       img {
-        padding-right: 30px;
+        width: 90px;
+        margin-right: 20px;
       }
 
       h3 {
@@ -123,7 +128,6 @@ $blue: #54657e;
     background: url('splash/footer.png') no-repeat center;
     background-size: 100% 100%;
     width: 100%;
-    height: 330px;
 
     .join {
       padding-top: 40px;
@@ -183,14 +187,14 @@ $blue: #54657e;
     }
     
     .content {
-        padding-top: 50px;
+        padding-top: 60px;
     }
 
     .earn {
         padding-top: 30px;
 
         img {
-            width: 80px;
+            width: 70px;
         }
     }
 
@@ -213,7 +217,7 @@ $blue: #54657e;
     }
 
     .banner {
-      height: 610px;
+      height: 550px;
 
       img {
           width: 180px;
@@ -222,7 +226,7 @@ $blue: #54657e;
 
     .title {
       h1 {
-        font-size: 72px;
+        font-size: 64px;
       }
 
       h3:nth-child(2) {
@@ -231,14 +235,14 @@ $blue: #54657e;
     }
     
     .content {
-        padding-top: 100px;
+        padding-top: 50px;
     }
 
     .earn {
-        padding-top: 60px;
+        padding-top: 40px;
 
         img {
-            width: 80px;
+            width: 90px;
         }
     }
   }
@@ -246,8 +250,13 @@ $blue: #54657e;
 
 
 @media (min-width: 1200px) {
-  .banner {
-    height: 600px;
+  #splash{
+    .banner {
+      height: 570px;
+    }
+    .splash-footer {
+      height: 310px;
+    }
   }
 }
 

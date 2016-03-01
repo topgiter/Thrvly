@@ -24,14 +24,19 @@
     background-size: 100% 100%;
     width: 100%;
     height: 700px;
+    
+    .col-sm-6 {
+      padding-left: 0;
+      padding-right: 0;
+    }
 
     .inspire {
       padding-top: 90px;
     }
 
     .heart {
-      padding-top: 50px;
-      padding-bottom: 45px;
+      padding-top: 65px;
+      padding-bottom: 20px;
     }
     
     .invite {
@@ -109,13 +114,13 @@
     .item {
       .tooltip {
         position: absolute;
-        top: -430px;
-        left: -47px;
+        top: -331px;
+        left: 32px;
         display: none;
         // background: #FFF;
 
         img {
-          width: 275px !important;
+          width: 210px !important;
           margin: 0 auto;
           display: block;
         }
@@ -148,7 +153,7 @@
 
     .track {
       h4 {
-        margin-top: 20px;
+        margin-top: 50px;
         color: #343454;
       }
 
