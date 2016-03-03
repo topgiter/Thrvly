@@ -109,6 +109,11 @@
       border-radius: 5px;
       padding-top: 18px;
       margin: auto;
+
+    }
+    
+    .selected {
+      background-color: #6b7cac;
     }
 
     .item {
@@ -148,6 +153,18 @@
         background-color: #74609c;
         height: 5px;
         width: 30%;
+      }
+
+      .one {
+        width: 56%;
+      }
+
+      .two {
+        width: 75%;
+      }
+
+      .three {
+        width: 100%;
       }
     }
 

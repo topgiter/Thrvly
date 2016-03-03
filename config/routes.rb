@@ -6,17 +6,19 @@ Prelaunchr::Application.routes.draw do
 
   root :to => "users#new"
 
-  match 'users/create' => 'users#create'
+  resources :users do
+    collection do
+      get :faq
+      get :jobs
+      get :partner
+      get :policy
+      get :presskit
+      get :terms
+    end
+  end
 
-  match 'refer-a-friend' => 'users#refer'
-
-  match 'privacy-policy' => 'users#policy'
-  match 'faq' => 'users#faq'
-  match 'jobs' => 'users#jobs'
-  match 'partner' => 'users#partner'
-  match 'policy' => 'users#policy'
-  match 'presskit' => 'users#presskit'
-  match 'terms' => 'users#terms'
+  match 'refer-a-student' => 'users#refer_student'
+  match 'refer-a-instructor' => 'users#refer_instructor'
 
   match 'student' => 'public#student'
   match 'instructor' => 'public#instructor'
@@ -25,10 +27,7 @@ Prelaunchr::Application.routes.draw do
   match 'auth/failure', to: redirect('/')
   match 'signout', to: 'sessions#destroy', as: 'signout'
 
-  unless Rails.application.config.consider_all_requests_local
-      match '*not_found', to: 'users#redirect', :format => false
-  end
-  
-  match 'venues/faq', :to => 'venues#faq'
-  match 'venues/index', :to => 'venues#index'
+  # unless Rails.application.config.consider_all_requests_local
+  #     match '*not_found', to: 'users#redirect', :format => false
+  # end
 end

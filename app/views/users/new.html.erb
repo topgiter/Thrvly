@@ -39,11 +39,12 @@
     <div class="row text-center input-form">
         <%= form_for @user, :url => { :action => "create" } do |f| %>
           <%= f.text_field :email, :placeholder => "Enter Email", :class => "email-input" %>
-          <!-- <input class="submit-btn" name="commit_instructor" type="submit" value="REGISTER AS INSTRUCTOR" />
-          <input class="submit-btn" name="commit_student" type="submit" value="BEGIN AS STUDENT" /> -->
+          <%= hidden_field_tag :ref, params[:ref] %>
+          <input class="submit-btn" name="commit" type="submit" value="REGISTER AS INSTRUCTOR" />
+          <input class="submit-btn" name="commit" type="submit" value="BEGIN AS STUDENT" />
           
-          <a href='/instructor'><input class="submit-btn" name="commit_instructor" type="button" value="REGISTER AS INSTRUCTOR" /></a>
-          <a href='/student'><input class="submit-btn" name="commit_student" type="button" value="BEGIN AS STUDENT" /></a>
+          <!-- <a href='/instructor'><input class="submit-btn" name="commit_instructor" type="button" value="REGISTER AS INSTRUCTOR" /></a> -->
+          <!-- <a href='/student'><input class="submit-btn" name="commit_student" type="button" value="BEGIN AS STUDENT" /></a> -->
         <% end %> 
       </div>
   </div>

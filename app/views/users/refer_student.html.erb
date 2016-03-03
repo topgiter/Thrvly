@@ -1,27 +1,30 @@
-<section id="instructor">
+<section id="student">
   <div class="welcome text-center">
     <h3>THANK YOU FOR JOINING</h3>
-    <%= link_to (image_tag 'splash/thrvly_min.png', alt: 'Thrvly'), root_path %>
+    <%= link_to image_tag('splash/thrvly_min.png', alt: 'Thrvly'), root_path %>
   </div>
   <div class="banner">
     <div class="row text-center">
       <div class="col-sm-6">
-        <h1 class="bold inspire">Begin Growing</h1>
-        <h1 class="bold">Your Brand</h1>
-        <h3 class="bonus">FREE TO CREATE - FOREVER</h3>
-        <h3>PLUS BONUS REWARDS...</h3>
-        <h3>Because you know..</h3>
-        <h3 class="bold heart">WE  <i class="fa fa-heart fa-2x"></i>  OUR INSTRUCTORS!!</h3>
+        <h1 class="bold inspire">Inspire Health &</h1>
+        <h1 class="bold">Change The World</h1>
+        <div class="heart">
+          <i class="fa fa-heart fa-5x"></i>
+        </div>
+        <h3>YOUR FRIENDS' HEALTH</h3>
+        <h3>&</h3>
+        <h3>SHARE & SUPPORT THE BEST INSTRUCTORS</h3>
+        <h3>IN THE WORLD</h3>
       </div>
       <div class="col-sm-6">
         <h2 class="bold invite">INVITE FRIENDS &</h2>
         <h2 class="bold">FOLLOWERS</h2>
-        <h3 class="earn">EARN REVENUE DIRECTLY WHEN</h3>
-        <h3 class="">FOLLOWERS BECOME SUBSCRIBERS</h3>
+        <h4 class="bold earn">EARN REWARDS FOR YOURSELF, FRIENDS &</h4>
+        <h4 class="bold">YOUR FAV LOCAL STUDIOS</h4>
         <h5 class="share">Share your unique link via email, facebook, twitter,</h5>
         <h5>instagram & pinterest.</h5>
 
-        <div class="ref-link">http://thrvly-prelaunch.com/ref12=gfr463</div>
+        <div class="ref-link">http://pure-taiga-93399/?ref=<%= current_user.referral_code %></div>
         <div class="social">
           <div class="social-icon">
             <a href="https://www.instagram.com" target="_blank"><i class="fa fa-instagram fa-3x"></i></a>
@@ -39,6 +42,19 @@
       </div>
     </div>
   </div>
+  <% 
+    referrals_count = current_user.referrals.count
+    stops = User::REFERRAL_STEPS
+    found = nil
+    stops.reverse_each do |stop|
+      if stop["count"] <= referrals_count and !found
+        stop["selected"] = true
+        found = stop
+      else
+        stop["selected"] = false
+      end
+    end
+  %>
   <div class="content">
     <div class="dashboard">
       <div class="row">
@@ -55,8 +71,8 @@
           </div>
         </div>
         <div class="col-sm-9">
-          <div class="col-sm-3 col-sm-offset-3 text-center item">
-            <div class="prize">
+          <div class="col-sm-3 col-sm-offset-3 text-center item ">
+            <div class="prize <%= stops[0]['selected'] ? 'selected' : '' %>">
               <h4 class="bold">10</h4>
             </div>
             <div class="prize-text">
@@ -80,7 +96,7 @@
             </div>
           </div> -->
           <div class="col-sm-3 text-center item">
-            <div class="prize">
+            <div class="prize <%= stops[1]['selected'] ? 'selected' : '' %>">
               <h4 class="bold">25</h4>
             </div>
             <div class="prize-text">
@@ -103,7 +119,7 @@
             </div>
           </div> -->
           <div class="col-sm-3 text-center item">
-            <div class="prize">
+            <div class="prize <%= stops[2]['selected'] ? 'selected' : '' %>">
               <h4 class="bold">50</h4>
             </div>
             <div class="prize-text">
@@ -115,21 +131,21 @@
           </div>
         </div>
         <div class="process-bar">
-          <div class="tracked">
+          <div class="tracked <%= found ? found['class'] : '' %>">
           </div>
         </div>
       </div>
 
     </div>
-    <div class="row">
-      <div class="col-sm-3 text-center track">
+    <div class="track text-center">
+      <% if referrals_count == 0 %>
         <h4>NO FRIENDS HAVE JOINED</h4>
-        <h5>Keep Checking</h5>
-      </div>
-      <div class="col-sm-9 text-center recur">
-        <h4><strong class="bold">EARN $1/mo.</strong> recurring revenue for each follower</h4>
-        <h4>when they begin a subscription to THRVLY</h4>
-      </div>
-    </h6>
+      <% elsif referrals_count == 1 %>
+        <h4>1 FRIEND HAS JOINED</h4>
+      <% else %>
+        <h4><%= referrals_count %> FRIENDS HAVE JOINED</h4>
+      <% end %>
+      <h5>Keep Checking</h5>
+    </div>
   </div>
 </section>

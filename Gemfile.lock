@@ -117,6 +117,8 @@ GEM
       coderay (~> 1.0)
       method_source (~> 0.8)
       slop (~> 3.4)
+    pry-nav (0.2.4)
+      pry (>= 0.9.10, < 0.11.0)
     rack (1.4.5)
     rack-cache (1.2)
       rack (>= 0.4)
@@ -195,6 +197,7 @@ DEPENDENCIES
   owlcarousel-rails
   pg
   pry
+  pry-nav
   rails (= 3.2.11)
   rails-pry
   rails_12factor
@@ -205,4 +208,4 @@ DEPENDENCIES
   unicorn
 
 BUNDLED WITH
-   1.10.6
+   1.11.2

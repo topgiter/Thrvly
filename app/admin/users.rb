@@ -4,6 +4,8 @@ ActiveAdmin.register User do
     column :id
     column :email
     column :referral_code
+    column :referral_registered_number
+    column :role
     column :referrer_id
     column :created_at
     column :updated_at
@@ -11,4 +13,9 @@ ActiveAdmin.register User do
 
   actions :index, :show
   
+  filter :referrer, collection: proc { User.all.map{|a| [a.id]} }
+  filter :email
+  filter :role, as: :select, collection
+  filter :referral_registered_number
+
 end

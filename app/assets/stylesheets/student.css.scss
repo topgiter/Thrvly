@@ -111,6 +111,10 @@
       margin: auto;
     }
 
+    .selected {
+      background-color: #6b7cac;
+    }
+
     .item {
       .tooltip {
         position: absolute;
@@ -148,6 +152,18 @@
         background-color: #74609c;
         height: 5px;
         width: 30%;
+      }
+
+      .one {
+        width: 56%;
+      }
+
+      .two {
+        width: 75%;
+      }
+
+      .three {
+        width: 100%;
       }
     }
 

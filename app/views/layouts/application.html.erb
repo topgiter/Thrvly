@@ -17,6 +17,7 @@
     <%= csrf_meta_tags %>
   </head>
   <body id="<%= @bodyId %>">
+    <%= content_for?(:error_header) ? '' : (render 'layouts/messages') %>
     <%= yield %>
   </body>
   

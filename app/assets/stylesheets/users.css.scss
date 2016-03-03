@@ -111,6 +111,8 @@ $blue: #54657e;
         color: $blue;
         opacity: 1;
       }
+
+
     }
 
     input[type='submit'] {
@@ -160,6 +162,10 @@ $blue: #54657e;
         color: white;
       }
     }
+  }
+
+  #user_email {
+    color: black;
   }
 }
 

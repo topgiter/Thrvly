@@ -2,6 +2,7 @@ class User < ActiveRecord::Base
     belongs_to :referrer, :class_name => "User", :foreign_key => "referrer_id"
     has_many :referrals, :class_name => "User", :foreign_key => "referrer_id"    
     attr_accessible :email
+    attr_accessible :role
 
     validates :email, :uniqueness => true, :format => { :with => /\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*/i, :message => "Invalid email format." }
     validates :referral_code, :uniqueness => true
@@ -14,21 +15,21 @@ class User < ActiveRecord::Base
 
     REFERRAL_STEPS = [
         {
-            'count' => 7,
+            'count' => 2,
             "html" => "Free Grotto Hour",
-            "class" => "two"
+            "class" => "one"
             # "image" =>  ActionController::Base.helpers.asset_path("home/pit_1.png")
         },
         {
-            'count' => 15,
+            'count' => 25,
             "html" => "Free Grotto Hour<br>For You And 3 Friends",
-            "class" => "three"
+            "class" => "two"
             # "image" => ActionController::Base.helpers.asset_path("home/pit_truggle.png")
         },
         {
-            'count' => 25,
+            'count' => 50,
             "html" => "Free Grotto<br>For A Month",
-            "class" => "four"
+            "class" => "three"
             # "image" => ActionController::Base.helpers.asset_path("home/pit_stuggle_fast.png")
         }
         
