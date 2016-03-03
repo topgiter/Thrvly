@@ -15,7 +15,7 @@ ActiveAdmin.register User do
   
   filter :referrer, collection: proc { User.all.map{|a| [a.id]} }
   filter :email
-  filter :role, as: :select, collection
+  filter :role, as: :select, collection: ["instructor", "student"]
   filter :referral_registered_number
 
 end
