@@ -15,7 +15,7 @@ class User < ActiveRecord::Base
 
     REFERRAL_STEPS = [
         {
-            'count' => 2,
+            'count' => 10,
             "html" => "Free Grotto Hour",
             "class" => "one"
             # "image" =>  ActionController::Base.helpers.asset_path("home/pit_1.png")
