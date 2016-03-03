@@ -9,8 +9,8 @@ email/refer.jpg: email/refer-52361fd71aff3cb5e4eb3038ab41336a.jpg
 email/refer/index.jpg: email/refer-52361fd71aff3cb5e4eb3038ab41336a.jpg
 email/twitter.jpg: email/twitter-d469adc5ec1cfdb85cc3714c3db041f4.jpg
 email/twitter/index.jpg: email/twitter-d469adc5ec1cfdb85cc3714c3db041f4.jpg
-favicon.ico: favicon-1d8eca370481ab7b6a9a69b5f201f2d4.ico
-favicon/index.ico: favicon-1d8eca370481ab7b6a9a69b5f201f2d4.ico
+favicon.ico: favicon-4325aa39068ab41ada33c60678adfcaa.ico
+favicon/index.ico: favicon-4325aa39068ab41ada33c60678adfcaa.ico
 home/app_icon copy.png: home/app_icon copy-fda672dcad022991387179e144b4f9ef.png
 home/app_icon copy/index.png: home/app_icon copy-fda672dcad022991387179e144b4f9ef.png
 home/background-2.png: home/background-2-1d8363781fb6eda72cae564cc401272e.png
@@ -159,6 +159,8 @@ reward/three.png: reward/three-04319c6f8c1de3fbc58b7e075b33a5a7.png
 reward/three/index.png: reward/three-04319c6f8c1de3fbc58b7e075b33a5a7.png
 reward/two.png: reward/two-41b306fe4a5e449d6eab2a51962507a4.png
 reward/two/index.png: reward/two-41b306fe4a5e449d6eab2a51962507a4.png
+sam_favicon.ico: sam_favicon-1d8eca370481ab7b6a9a69b5f201f2d4.ico
+sam_favicon/index.ico: sam_favicon-1d8eca370481ab7b6a9a69b5f201f2d4.ico
 splash/Gem.png: splash/Gem-014f60680aeafd1de1dbc98e544ba4be.png
 splash/Gem/index.png: splash/Gem-014f60680aeafd1de1dbc98e544ba4be.png
 splash/banner-img0.png: splash/banner-img0-2e8b1e8f5eadb76845483d5720a22f42.png
@@ -199,8 +201,8 @@ owl.carousel.min_.js1: owl.carousel.min_-39062bfd600ba14267992fc7049afddd.js1
 owl/index.carousel.min_.js1: owl.carousel.min_-39062bfd600ba14267992fc7049afddd.js1
 active_admin.css: active_admin-f58fc98e42733be6473403cf53156e11.css
 active_admin/index.css: active_admin-f58fc98e42733be6473403cf53156e11.css
-application.css: application-8a94c6649482cffab75f1d743513cdc9.css
-application/index.css: application-8a94c6649482cffab75f1d743513cdc9.css
+application.css: application-993c7637f02d6af76367d86c108e966f.css
+application/index.css: application-993c7637f02d6af76367d86c108e966f.css
 core.css: core-1e8b307c6515499222081426c4f0c42d.css
 core/index.css: core-1e8b307c6515499222081426c4f0c42d.css
 reset.css: reset-6ad98bc091cc9c97d9111ba5d3b1bc6e.css
